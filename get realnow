@@ -1,0 +1,21 @@
+
+            local Indicator24 = Instance.new("ScreenGui")
+            local BHIndicators = Instance.new("TextLabel")
+
+
+            Indicator24.Name = "Indicator24"
+            Indicator24.Parent = game.CoreGui
+            Indicator24.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+            BHIndicators.Name = "BHIndicators"
+            BHIndicators.Parent = Indicator24
+            BHIndicators.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            BHIndicators.BackgroundTransparency = 1.000
+            BHIndicators.Position = UDim2.new(0, 0, 0.83277595, 0)
+            BHIndicators.Size = UDim2.new(0, 100, 0, 100)
+            BHIndicators.Font = Enum.Font.SourceSansBold
+            BHIndicators.Text = "BH"
+            BHIndicators.TextColor3 = Color3.fromRGB(255, 0, 0)
+            BHIndicators.TextSize = 65.000
+            BHIndicators.TextStrokeTransparency = 0.000
+            BHIndicators.TextWrapped = true
